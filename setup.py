@@ -16,7 +16,7 @@ cmdclass = {'build_ext': build_ext}
 
 install_requires = [
     'Cython>=0.29.2',
-    'numpy==1.22.0',
+    'numpy>=1.20.0',
     'pandas==0.25.3'
 ]
 
@@ -28,7 +28,7 @@ setup(
     cmdclass=cmdclass,
     ext_modules=cythonize(extensions),
     version=__version__,
-    setup_requires=['Cython>=0.29.2', 'numpy==1.22.0'],
+    setup_requires=['Cython>=0.29.2', 'numpy>=1.20.0'],
     install_requires=install_requires,
     requires=['Cython', 'numpy', 'pandas'],
     python_requires='>=3.6.0',

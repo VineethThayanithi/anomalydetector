@@ -17,7 +17,7 @@ cmdclass = {'build_ext': build_ext}
 install_requires = [
     'numpy>=1.20.0',
     'Cython>=0.29.34',
-    'pandas==0.25.3'
+    'pandas==2.0.0'
 ]
 
 setup(

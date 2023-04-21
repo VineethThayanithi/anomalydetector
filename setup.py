@@ -15,7 +15,7 @@ extensions = [
 cmdclass = {'build_ext': build_ext}
 
 install_requires = [
-    'Cython>=0.29.2',
+    'Cython>=0.29.34',
     'numpy==1.18.1',
     'pandas==0.25.3'
 ]
